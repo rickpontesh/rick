@@ -1,0 +1,29 @@
+/* Estilizando o header */
+header {
+  display: flex;
+  justify-content: space-between; /* Logo à esquerda, menu à direita */
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #b6ebeb;
+}
+
+/* Logo */
+.logo {
+  width: 3cm;
+}
+
+.barra {
+  background-color: #ffffff;       /* Cor de fundo da barra */
+  padding: 2px;
+  display: flex;
+  justify-content: center;      /* Centraliza o conteúdo na horizontal */
+  align-items: center;          /* Centraliza na vertical */
+}
+
+.nome-site {
+  color: white;                 /* Cor do nome */
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+
